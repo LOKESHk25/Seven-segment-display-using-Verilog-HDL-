@@ -34,7 +34,7 @@ Diagram
 
 
 Verilog Code for Seven-Segment Display
-
+```
 // seven_segment_display.v
 module seven_segment_display (
     input wire [3:0] binary_input,
@@ -56,6 +56,7 @@ module seven_segment_display (
         endcase
     end
 endmodule
+```
 output
 ![Screenshot 2024-09-26 140407](https://github.com/user-attachments/assets/61494843-324a-4968-a0bc-e4700349ed32)
 
